@@ -35,7 +35,6 @@ function Valid()
     {
         success(username);
     }
-    // let reg=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
     if(email===""){
         error(Email,"enter a email");
